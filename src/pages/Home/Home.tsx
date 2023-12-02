@@ -1,3 +1,41 @@
+import Basecard from "../../assets/Basecard.png";
+import WhiteBasecard from "../../assets/WhiteBasecard.png";
+import Piz1 from "../../assets/Piz1.png";
+import Piz2 from "../../assets/Piz2.png";
+import Piz3 from "../../assets/Piz3.png";
+import Piz4 from "../../assets/Piz4.png";
+import Piz5 from "../../assets/Piz5.png";
+import Piz6 from "../../assets/Piz6.png";
+import LeftSideSection from "../../assets/Left side section.png";
+import burgerBadge from "../../assets/burger badge.png";
+import shapes from "../../assets//shapes.png";
+import free from "../../assets/Free.png";
+import delivery from "../../assets/delivery.png";
+import Pizza from "../../assets/pizza.png";
+
+import Pizza1 from "../../assets/pizza 1.png";
+import burger1 from "../../assets/burger 1.png";
+import chicken1 from "../../assets/chicken.png";
+import drinks from "../../assets/drinks.png";
+import combo from "../../assets/combo.png";
+
+import posters from "../../assets/posters.png";
+
+import Chickpea2 from "../../assets/Chickpea Soup2.png";
+import Chickpea from "../../assets/Chickpea Soup.png";
+
+import Vegetable2 from "../../assets/Vegetable Pizza2.png";
+import Vegetable from "../../assets/Vegetable Pizza.png";
+
+import Garlic2 from "../../assets/Garlic Burger2.png";
+import Garlic from "../../assets/Garlic Burger.png";
+
+import Chicken from "../../assets/Chicken Fry.png";
+import Chicken2 from "../../assets/Chicken Fry2.png";
+
+import shapes3 from "../../assets/shapes3.png";
+import shapes2 from "../../assets/Shapes2.png";
+
 const Home = () => {
   return (
     <>
@@ -14,7 +52,7 @@ const Home = () => {
               <p className=" text-white py-4 pl-2 pr-10 border border-r-transparent rounded-l-xl ">
                 Buy One. Get One
               </p>
-              <img src="/src/assets/Free.png" alt="free badge" />
+              <img src={free} alt="free badge" />
             </div>
             <div className="flex items-end text-white my-5">
               <p className="font-bold text-lg pr-2">Price : </p>
@@ -24,11 +62,7 @@ const Home = () => {
             </div>
             <div className="mb-y">
               <div className="flex items-center gap-5">
-                <img
-                  src="/src/assets/delivery.png"
-                  alt="delivery man"
-                  width="60px"
-                />
+                <img src={delivery} alt="delivery man" width="60px" />
                 <div className="text-white text-sm">
                   <p>Delivery Order Num.</p>
                   <p className="font-bold text-lightOrange">123-59794069</p>
@@ -40,12 +74,12 @@ const Home = () => {
             </div>
           </div>
           <div className="lg:flex flex-col justify-end items-center right-0 hidden mb-10">
-            <img src="/src/assets/pizza.png" alt="pizza" width="500px" />
+            <img src={Pizza} alt="pizza" width="500px" />
           </div>
         </section>
 
         <section className="md:relative flex flex-col shadow-lg md:m-20 my-20 mx-10 ">
-          <img src="/src/assets/shapes.png" className="hidden md:absolute " />
+          <img src={shapes} className="hidden md:absolute " />
           <div className="text-center  pt-2">
             <p className="font-Caveat text-4xl text-red mb-5">online booking</p>
             <h2 className="text-5xl font-Poppins font-extrabold text-blue">
@@ -72,7 +106,7 @@ const Home = () => {
         <section className="grid lg:grid-cols-2 gap-10 items-center m-20">
           <div className="flex justify-center items-center">
             <img
-              src="/src/assets/Left side section.png"
+              src={LeftSideSection}
               alt="left side section"
               className="w-full"
             />
@@ -87,7 +121,7 @@ const Home = () => {
               corner site in Farringdon's Exmouth Market. With glazed.
             </p>
             <div className="p-5 flex items-center gap-5 shadow-lg">
-              <img src="/src/assets/burger badge.png" alt="burger badge" />
+              <img src={burgerBadge} alt="burger badge" />
               <div className="">
                 <h4 className="text-xl font-Poppins font-extrabold text-blue">
                   Garlic Burger Parties
@@ -109,45 +143,45 @@ const Home = () => {
           </div>
           <div className="flex md:flex-row flex-col justify-center items-center gap-5">
             <div className="relative">
-              <img src="/src/assets/Basecard.png" alt="Base Card" />
+              <img src={Basecard} alt="Base Card" />
               <div className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
-                <img src="/src/assets/pizza 1.png" className="" />
+                <img src={Pizza1} className="" />
                 <p className="text-white font-Poppins text-lg font-bold text-center">
                   Pizza
                 </p>
               </div>
             </div>
             <div className="relative">
-              <img src="/src/assets/WhiteBasecard.png" alt="Base Card" />
+              <img src={WhiteBasecard} alt="Base Card" />
               <div className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
-                <img src="/src/assets/burger 1.png" className="" />
+                <img src={burger1} className="" />
                 <p className="text-blue font-Poppins text-lg font-bold text-center">
                   Pizza
                 </p>
               </div>
             </div>
             <div className="relative">
-              <img src="/src/assets/WhiteBasecard.png" alt="Base Card" />
+              <img src={WhiteBasecard} alt="Base Card" />
               <div className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
-                <img src="/src/assets/chicken.png" className="" />
+                <img src={chicken1} className="" />
                 <p className="text-blue font-Poppins text-lg font-bold text-center">
                   Chicken
                 </p>
               </div>
             </div>
             <div className="relative">
-              <img src="/src/assets/WhiteBasecard.png" alt="Base Card" />
+              <img src={WhiteBasecard} alt="Base Card" />
               <div className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
-                <img src="/src/assets/drinks.png" className="" />
+                <img src={drinks} className="" />
                 <p className="text-blue font-Poppins text-lg font-bold text-center">
                   Drinks
                 </p>
               </div>
             </div>
             <div className="relative">
-              <img src="/src/assets/WhiteBasecard.png" alt="Base Card" />
+              <img src={WhiteBasecard} alt="Base Card" />
               <div className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
-                <img src="/src/assets/combo.png" className="" />
+                <img src={combo} className="" />
                 <p className="text-blue font-Poppins text-lg font-bold text-center">
                   Combo Menu
                 </p>
@@ -156,13 +190,13 @@ const Home = () => {
           </div>
           <div className="md:px-10 px-5 py-10 my-20 shadow-lg relative">
             <img
-              src="/src/assets/Shapes2.png"
+              src={shapes2}
               alt="Base Card"
               className="absolute bottom-0 right-0"
             />
             <div className="grid lg:grid-cols-3 md:grid-cols-2 md:gap-10 gap-5 py-5">
               <div className="flex gap-5 border p-5 rounded-md">
-                <img src="/src/assets/Piz1.png" alt="pizza1" />
+                <img src={Piz1} alt="pizza1" />
                 <div className="text-blue flex flex-col gap-3">
                   <h4 className="font-Poppins font-bold text-xl">Margherita</h4>
                   <p className="font-roboto text-base font-normal">
@@ -175,7 +209,7 @@ const Home = () => {
               </div>
 
               <div className="flex gap-5 border p-5 rounded-md">
-                <img src="/src/assets/Piz2.png" alt="pizza1" />
+                <img src={Piz2} alt="pizza1" />
                 <div className="text-blue flex flex-col gap-3">
                   <h4 className="font-Poppins font-bold text-xl">Tomato</h4>
                   <p className="font-roboto text-base font-normal">
@@ -188,7 +222,7 @@ const Home = () => {
               </div>
 
               <div className="flex gap-5 border p-5 rounded-md">
-                <img src="/src/assets/Piz2.png" alt="pizza1" />
+                <img src={Piz3} alt="pizza1" />
                 <div className="text-blue flex flex-col gap-3">
                   <h4 className="font-Poppins font-bold text-xl">Marinara</h4>
                   <p className="font-roboto text-base font-normal">
@@ -201,7 +235,7 @@ const Home = () => {
               </div>
 
               <div className="flex gap-5 border p-5 rounded-md">
-                <img src="/src/assets/Piz4.png" alt="pizza1" />
+                <img src={Piz4} alt="pizza1" />
                 <div className="text-blue flex flex-col gap-3">
                   <h4 className="font-Poppins font-bold text-xl">
                     Frutti Di Mare
@@ -216,7 +250,7 @@ const Home = () => {
               </div>
 
               <div className="flex gap-5 border p-5 rounded-md">
-                <img src="/src/assets/Piz5.png" alt="pizza1" />
+                <img src={Piz5} alt="pizza1" />
                 <div className="text-blue flex flex-col gap-3">
                   <h4 className="font-Poppins font-bold text-xl">Americana</h4>
                   <p className="font-roboto text-base font-normal">
@@ -229,7 +263,7 @@ const Home = () => {
               </div>
 
               <div className="flex gap-5 border p-5 rounded-md">
-                <img src="/src/assets/Piz6.png" alt="pizza1" />
+                <img src={Piz6} alt="pizza1" />
                 <div className="text-blue flex flex-col gap-3">
                   <h4 className="font-Poppins font-bold text-xl">
                     Pizza Al Pesto
@@ -253,7 +287,7 @@ const Home = () => {
 
         <section className="mt-20  bg-lightRed  pb-20 relative">
           <img
-            src="/src/assets/shapes3.png"
+            src={shapes3}
             alt="shapes"
             className="md:absolute hidden top-0  w-full"
           />
@@ -289,7 +323,7 @@ const Home = () => {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 md:gap-10 gap-5 ">
               <div className="border-2 border-gray-400 rounded-lg p-4 bg-white flex flex-col items-center">
-                <img src="/src/assets/Garlic Burger.png" />
+                <img src={Garlic} />
                 <div className="text-blue flex flex-col gap-3 text-center md:text-start">
                   <h4 className="font-Poppins font-bold text-xl">
                     Garlic Burger
@@ -304,7 +338,7 @@ const Home = () => {
               </div>
 
               <div className="border-2 border-gray-400 rounded-lg p-4 bg-white flex flex-col items-center">
-                <img src="/src/assets/Vegetable Pizza.png" />
+                <img src={Vegetable} />
                 <div className="text-blue flex flex-col gap-3 text-center md:text-start">
                   <h4 className="font-Poppins font-bold text-xl">
                     Vegetable Pizza
@@ -319,7 +353,7 @@ const Home = () => {
               </div>
 
               <div className="border-2 border-gray-400 rounded-lg p-4 bg-white flex flex-col items-center">
-                <img src="/src/assets/Chicken Fry.png" />
+                <img src={Chicken} />
                 <div className="text-blue flex flex-col gap-3 text-center md:text-start">
                   <h4 className="font-Poppins font-bold text-xl">
                     Chicken Fry
@@ -337,7 +371,7 @@ const Home = () => {
               </div>
 
               <div className="border-2 border-gray-400 rounded-lg p-4 bg-white flex flex-col items-center">
-                <img src="/src/assets/Chickpea Soup.png" />
+                <img src={Chickpea} />
                 <div className="text-blue flex flex-col gap-3 text-center md:text-start">
                   <h4 className="font-Poppins font-bold text-xl">
                     Chickpea Soup{" "}
@@ -352,7 +386,7 @@ const Home = () => {
               </div>
 
               <div className="border-2 border-gray-400 rounded-lg p-4 bg-white flex flex-col items-center">
-                <img src="/src/assets/Garlic Burger2.png" />
+                <img src={Garlic2} />
                 <div className="text-blue flex flex-col gap-3 text-center md:text-start">
                   <h4 className="font-Poppins font-bold text-xl">
                     Garlic Burger
@@ -367,7 +401,7 @@ const Home = () => {
               </div>
 
               <div className="border-2 border-gray-400 rounded-lg p-4 bg-white flex flex-col items-center">
-                <img src="/src/assets/Vegetable Pizza2.png" />
+                <img src={Vegetable2} />
                 <div className="text-blue flex flex-col gap-3 text-center md:text-start">
                   <h4 className="font-Poppins font-bold text-xl">
                     Vegetable Pizza{" "}
@@ -382,7 +416,7 @@ const Home = () => {
               </div>
 
               <div className="border-2 border-gray-400 rounded-lg p-4 bg-white flex flex-col items-center">
-                <img src="/src/assets/Chicken Fry2.png" />
+                <img src={Chicken2} />
                 <div className="text-blue flex flex-col gap-3 text-center md:text-start">
                   <h4 className="font-Poppins font-bold text-xl">
                     Chicken Fry
@@ -400,7 +434,7 @@ const Home = () => {
               </div>
 
               <div className="border-2 border-gray-400 rounded-lg p-4 bg-white flex flex-col items-center">
-                <img src="/src/assets/Chickpea Soup2.png" />
+                <img src={Chickpea2} />
                 <div className="text-blue flex flex-col gap-3 text-center md:text-start">
                   <h4 className="font-Poppins font-bold text-xl">
                     Chickpea Soup{" "}
@@ -415,11 +449,7 @@ const Home = () => {
               </div>
             </div>
             <div className="pt-10">
-              <img
-                src="/src/assets/posters.png"
-                alt="posters"
-                className="w-full"
-              />
+              <img src={posters} alt="posters" className="w-full" />
             </div>
           </div>
         </section>

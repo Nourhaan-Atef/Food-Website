@@ -1,15 +1,19 @@
+import footerShapes from "../assets/footer shapes.png";
+import logo from "../assets/logo.png";
+import email from "../assets/Email icon.png";
+import copyrights from "../assets/Copyright.png";
 const Footer = () => {
   return (
     <>
       <footer className="bg-black relative">
         <img
-          src="/src/assets/footer shapes.png"
+          src={footerShapes}
           alt="footer shapes"
           className="md:absolute z-1 h-full top-0 hidden"
         />
         <div className="md:px-20 px-10 pb-20 pt-28">
           <div className="flex md:flex-row flex-col gap-5 justify-between md:items-center items-start border-b border-b-gray-500 pb-10">
-            <img src="/src/assets/logo.png" />
+            <img src={logo} />
             <h3 className="font-Poppins font-bold text-3xl text-white">
               Feel Hunger! Order Your{" "}
               <span className="text-lightOrange">Like Food.</span>
@@ -55,7 +59,7 @@ const Footer = () => {
                 <p className=" text-white py-2 pl-2 pr-10 border border-r-transparent  ">
                   Enter Your Email{" "}
                 </p>
-                <img src="/src/assets/Email icon.png" />
+                <img src={email} />
               </div>
 
               <p className="font-Roboto font-normal text-base py-2 text-lightOrange">
@@ -66,7 +70,7 @@ const Footer = () => {
           <div className="flex justify-center items-center mt-10">
             <p className="text-white flex gap-1 font-Roboto font-medium">
               Copyright
-              <img src="/src/assets/Copyright.png" />
+              <img src={copyrights} />
               2021 <span className="text-lightOrange"> Khadyo</span>
             </p>
           </div>

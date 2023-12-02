@@ -1,11 +1,16 @@
 import { NavLink } from "react-router-dom";
+import logo from "../assets/logo.png";
+import user from "../assets/user.png";
+import heart from "../assets/heart.png";
+import shoppingBag from "../assets/shopping-bag.png";
+
 
 const Navbar = () => {
   return (
     <>
       <nav className="flex justify-between items-center py-6 px-20 bg-darkGray">
         <section>
-          <img src="/src/assets/logo.png" alt="Logo" />
+          <img src={logo} alt="Logo" />
         </section>
         <section className="flex gap-5 text-white font-Roboto text-lg">
           <NavLink to="Home" className="text-red-700 border-b-2 border-b-red">
@@ -31,21 +36,21 @@ const Navbar = () => {
           <div className="flex gap-2">
             <div className="rounded-full border-2 border-white p-1 hover:bg-red hover:cursor-pointer hover:border-red">
               <img
-                src="/src/assets/user.png"
+                src={user}
                 alt="user Img"
                 className="px-px "
               />
             </div>
             <div className="rounded-full border-2 border-white p-1 hover:bg-red hover:cursor-pointer hover:border-red">
               <img
-                src="/src/assets/heart.png"
+                src={heart}
                 alt="heart Img"
                 className="px-px "
               />
             </div>
             <div className="rounded-full border-2 border-white p-1 hover:bg-red hover:cursor-pointer hover:border-red">
               <img
-                src="/src/assets/shopping-bag.png"
+                src={shoppingBag}
                 alt="shopping bag Img"
                 className="px-px "
               />
