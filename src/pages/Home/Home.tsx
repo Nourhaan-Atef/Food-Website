@@ -1,5 +1,5 @@
 import Basecard from "../../assets/Basecard.png";
-import WhiteBasecard from "../../assets/WhiteBasecard.png";
+import WhiteBasecard from "../../assets/whiteBasecard.png";
 import Piz1 from "../../assets/Piz1.png";
 import Piz2 from "../../assets/Piz2.png";
 import Piz3 from "../../assets/Piz3.png";
