@@ -28,6 +28,8 @@ import Chicken from "../../assets/Chicken Fry.png";
 import Chicken2 from "../../assets/Chicken Fry2.png";
 import shapes3 from "../../assets/shapes3.png";
 import shapes2 from "../../assets/Shapes2.png";
+import downArrow from "../../assets/Shapes2.png";
+import calender from "../../assets/calender.png";
 
 const Home = () => {
   return (
@@ -82,13 +84,13 @@ const Home = () => {
 
           <div className="grid lg:grid-cols-4 items-center gap-5 md:px-16 px-4 md:py-20 pb-10">
             <p className="flex justify-between border-2 px-3 py-1">
-              <span>4 People</span> <img src="/src/assets/down.png" />
+              <span>4 People</span> <img src={downArrow} />
             </p>
             <p className="flex justify-between border-2 px-3 py-1">
-              <span>mm/dd/yyy</span> <img src="/src/assets/calendar.png" />
+              <span>mm/dd/yyy</span> <img src={calender} />
             </p>
             <p className="flex justify-between border-2 px-3 py-1">
-              <span>07.29 pm</span> <img src="/src/assets/down.png" />
+              <span>07.29 pm</span> <img src={downArrow} />
             </p>
             <button className="text-white bg-red  border border-red hover:bg-transparent hover:border-white hover:text-red rounded-xl px-10 py-2 font-Poppins text-lg">
               Find Table
