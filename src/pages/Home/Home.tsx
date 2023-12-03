@@ -8,7 +8,6 @@ import Piz5 from "../../assets/piz5.png";
 import Piz6 from "../../assets/piz6.png";
 import LeftSideSection from "../../assets/Left side section.png";
 import burgerBadge from "../../assets/burger badge.png";
-import shapes from "../../assets//shapes.png";
 import free from "../../assets/Free.png";
 import delivery from "../../assets/delivery.png";
 import Pizza from "../../assets/pizza.png";
@@ -73,8 +72,7 @@ const Home = () => {
           </div>
         </section>
 
-        <section className="md:relative flex flex-col shadow-lg md:m-20 my-20 mx-10 ">
-          <img src={shapes} className="hidden md:absolute " />
+        <section className=" flex flex-col shadow-lg md:m-20 my-20 mx-10 ">
           <div className="text-center  pt-2">
             <p className="font-Caveat text-4xl text-red mb-5">online booking</p>
             <h2 className="text-5xl font-Poppins font-extrabold text-blue">
