@@ -29,7 +29,7 @@ import Chicken2 from "../../assets/Chicken Fry2.png";
 import shapes3 from "../../assets/shapes3.png";
 import shapes2 from "../../assets/Shapes2.png";
 import downArrow from "../../assets/Shapes2.png";
-import calender from "../../assets/calender.png";
+import calender from "../../assets/calendar.png";
 
 const Home = () => {
   return (
