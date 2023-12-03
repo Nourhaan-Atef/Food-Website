@@ -1,39 +1,31 @@
 import Basecard from "../../assets/Basecard.png";
 import WhiteBasecard from "../../assets/whiteBasecard.png";
-
-import Piz1 from "../../assets/Piz1.png";
-import Piz2 from "../../assets/Piz2.png";
-import Piz3 from "../../assets/Piz3.png";
-import Piz4 from "../../assets/Piz4.png";
-import Piz5 from "../../assets/Piz5.png";
-import Piz6 from "../../assets/Piz6.png";
+import Piz1 from "../../assets/piz1.png";
+import Piz2 from "../../assets/piz2.png";
+import Piz3 from "../../assets/piz3.png";
+import Piz4 from "../../assets/piz4.png";
+import Piz5 from "../../assets/piz5.png";
+import Piz6 from "../../assets/piz6.png";
 import LeftSideSection from "../../assets/Left side section.png";
 import burgerBadge from "../../assets/burger badge.png";
 import shapes from "../../assets//shapes.png";
 import free from "../../assets/Free.png";
 import delivery from "../../assets/delivery.png";
 import Pizza from "../../assets/pizza.png";
-
 import Pizza1 from "../../assets/pizza 1.png";
 import burger1 from "../../assets/burger 1.png";
 import chicken1 from "../../assets/chicken.png";
 import drinks from "../../assets/drinks.png";
 import combo from "../../assets/combo.png";
-
 import posters from "../../assets/posters.png";
-
 import Chickpea2 from "../../assets/Chickpea Soup2.png";
 import Chickpea from "../../assets/Chickpea Soup.png";
-
 import Vegetable2 from "../../assets/Vegetable Pizza2.png";
 import Vegetable from "../../assets/Vegetable Pizza.png";
-
 import Garlic2 from "../../assets/Garlic Burger2.png";
 import Garlic from "../../assets/Garlic Burger.png";
-
 import Chicken from "../../assets/Chicken Fry.png";
 import Chicken2 from "../../assets/Chicken Fry2.png";
-
 import shapes3 from "../../assets/shapes3.png";
 import shapes2 from "../../assets/Shapes2.png";
 
